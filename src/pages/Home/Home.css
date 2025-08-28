@@ -1,0 +1,265 @@
+.home{
+    position: relative;
+}
+
+.banner-img{
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+.hero-caption{
+    position:absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+}
+
+.caption-img{
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+.hero-caption p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px ;
+}
+
+.hero-btns{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.hero-btns .btn img{
+    width: 25px;
+}
+
+.hero-btns .btn.dark-btn{
+    color: #fff;
+    background:#6d6d6eb3;
+}
+
+.hero-btns .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-btns .btn:hover{
+    background:#ffffffbf ;
+}
+
+.hero-btns .btn.dark-btn:hover{
+    background:#6d6d6e66;
+}
+
+.more-cards{
+    padding-left: 6%;
+}
+
+.home{
+    position: relative;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+/* .Title {
+  position: absolute;
+  font-family: sans-serif;
+  z-index: 2;
+  font-size: 3.5rem;
+  font-weight: 800;
+  width: 80%;
+  max-width: 800px;
+  line-height: 1.2;
+}
+.title-2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+} */
+
+.hero-text {
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.Title {
+  font-size: 3.5rem;
+    font-family: sans-serif;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.title-2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+    font-family: sans-serif;
+}
+
+/* 📱 Responsive Text Scaling */
+@media (max-width: 1024px) {
+  .Title {
+    font-size: 2.5rem;
+  }
+  .title-2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Title {
+    font-size: 2rem;
+  }
+  .title-2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Title {
+    font-size: 1.5rem;
+  }
+  .title-2 {
+    font-size: 0.9rem;
+  }
+}
+
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mask-image: linear-gradient(to right, transparent, black 75%);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+
+
+.hero-caption{
+    position:absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+}
+
+.caption-img{
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+.hero-caption p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px ;
+}
+
+.hero-btns{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.hero-btns .btn img{
+    width: 25px;
+}
+
+.hero-btns .btn.dark-btn{
+    color: #fff;
+    background:#6d6d6eb3;
+}
+
+.hero-btns .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-btns .btn:hover{
+    background:#ffffffbf ;
+}
+
+.hero-btns .btn.dark-btn:hover{
+    background:#6d6d6e66;
+}
+
+.more-cards{
+    padding-left: 6%;
+}
+
+
+@media (max-width:1024px) {
+    .hero-caption .title-cards{
+        display: none;
+    }
+    .hero-btns{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:800px) {
+    .hero-caption{
+        padding-left: 4%;
+    }
+
+    .caption-img{
+        margin-bottom: 10px;
+        width: 40%;
+    }
+    .hero-caption p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .hero-btns .btn img{
+        width: 20px;
+    }
+    .more-cards{
+        padding-left: 4%;
+    }
+}
+
+@media (max-width:500px){
+    .caption-img{
+        display: none;
+    }
+    .hero-btns img{
+        width: 15px;
+    }
+    .hero-btns  .btn{
+        padding: 4px 10px;
+        gap: 5px;
+        font-size: 10px;
+    }
+}
