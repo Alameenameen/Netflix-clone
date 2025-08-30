@@ -5,7 +5,7 @@ import Login from "./pages/Login/Login";
 import Player from "./pages/Player/Player.jsx";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./firebase.js";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 
 const App = () => {
